@@ -1,0 +1,29 @@
+{
+  "name": "frontend-nuxtjs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint-check": "npx eslint --ext .js,.vue pages/* layouts/*",
+    "lint-fix": "npx eslint --fix --ext .js,.vue pages/* layouts/*"
+  },
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "vuetify": "^2.5.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "prettier": "^2.4.1"
+  }
+}
