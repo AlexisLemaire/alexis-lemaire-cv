@@ -59,6 +59,7 @@
           <v-btn><a :href="selectedProject.link">Site</a></v-btn>
           <v-btn><a :href="selectedProject.github">Github</a></v-btn>
           <v-btn :to="'/changeProject/' + selectedProject.id"><v-icon>mdi-cog</v-icon></v-btn>
+          <v-btn :to="'/deleteProject/' + selectedProject.id"><v-icon>mdi-delete-empty</v-icon></v-btn>
         </div>
       </v-card>
     </v-dialog>

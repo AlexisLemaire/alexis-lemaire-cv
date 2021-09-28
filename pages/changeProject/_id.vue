@@ -24,7 +24,6 @@ import axios from "axios";
 export default {
   data() {
     return {
-      date: "2021-09-28",
       project: {},
       res: {},
     };
