@@ -8,8 +8,9 @@
         <v-text-field v-model="project.description" label="Description" />
         <v-text-field v-model="project.link" label="Lien du site" />
         <v-text-field v-model="project.github" label="Github du site" />
-        <v-date-picker v-model="project.date" label="Date de mise en production" width="100%" />
-        <br />
+        <div>Date de mise en production :</div>
+        <v-date-picker v-model="project.date" width="100%" />
+
         <v-btn width="100%" dark @click="updateProject()"> Modifier </v-btn>
       </v-form>
       <v-alert v-if="res.error !== undefined" text color="red" outlined>{{ res.error }}</v-alert>

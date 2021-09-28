@@ -107,8 +107,8 @@ export default {
   width: 9%;
 }
 
-img {
-  margin-bottom: 1%;
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .v-btn {
