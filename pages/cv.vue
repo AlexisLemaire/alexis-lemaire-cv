@@ -1,12 +1,13 @@
 <template>
   <div class="d-flex justify-content-between p-3">
     <v-card class="skills" outlined>
-      <img src="../assets/htmlCSSJS.png" height="16%" width="99%" />
-      <img src="../assets/VueJS.jpg" height="16%" width="99%" />
-      <img src="../assets/VuetifyJS.png" height="16%" width="99%" />
-      <img src="../assets/NuxtJS.png" height="16%" width="99%" />
-      <img src="../assets/AngularJS.png" height="16%" width="99%" />
-      <img src="../assets/Github.png" height="16%" width="99%" />
+      <img src="../assets/htmlCSSJS.png" height="14%" width="99%" />
+      <img src="../assets/VueJS.jpg" height="14%" width="99%" />
+      <img src="../assets/VuetifyJS.png" height="14%" width="99%" />
+      <img src="../assets/NuxtJS.png" height="14%" width="99%" />
+      <img src="../assets/AngularJS.png" height="14%" width="99%" />
+      <img src="../assets/Github.png" height="14%" width="99%" />
+      <img src="../assets/Gitlab.png" height="14%" width="99%" />
     </v-card>
 
     <v-card id="cv" elevation="22">
@@ -41,12 +42,13 @@
     </v-card>
 
     <v-card class="skills" outlined>
-      <img src="../assets/NodeJS.png" height="16%" width="99%" />
-      <img src="../assets/PHP.jpg" height="16%" width="99%" />
-      <img src="../assets/Symfony.png" height="16%" width="99%" />
-      <img src="../assets/mySQL.png" height="16%" width="99%" />
-      <img src="../assets/mongoDB.png" height="16%" width="99%" />
-      <img src="../assets/Gitlab.png" height="16%" width="99%" />
+      <img src="../assets/NodeJS.png" height="14%" width="99%" />
+      <img src="../assets/Fastify.png" height="14%" width="99%" />
+      <img src="../assets/ExpressJS.png" height="14%" width="99%" />
+      <img src="../assets/PHP.jpg" height="14%" width="99%" />
+      <img src="../assets/Symfony.png" height="14%" width="99%" />
+      <img src="../assets/mySQL.png" height="14%" width="99%" />
+      <img src="../assets/mongoDB.png" height="14%" width="99%" />
     </v-card>
 
     <v-dialog v-model="isOpenDialog">
@@ -83,7 +85,7 @@ export default {
 
   methods: {
     async getAllProject() {
-      this.projectList = (await axios.get(`${process.env.herokuAPI}/projects`)).data;
+      this.projectList = (await axios.get(`${process.env.localAPI}/projects`)).data;
     },
 
     setSelectedProject(project) {
