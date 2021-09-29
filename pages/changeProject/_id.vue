@@ -35,12 +35,12 @@ export default {
 
   methods: {
     async preFillForm() {
-      const res = (await axios.get(`${process.env.herokuAPI}/projects/` + this.$route.params.id)).data;
+      const res = (await axios.get(`${process.env.API}/projects/` + this.$route.params.id)).data;
       await (this.project = res[0]);
     },
 
     async updateProject() {
-      this.res = (await axios.put(`${process.env.herokuAPI}/projects/` + this.$route.params.id, this.project)).data;
+      this.res = (await axios.put(`${process.env.API}/projects/` + this.$route.params.id, this.project)).data;
     },
   },
 };

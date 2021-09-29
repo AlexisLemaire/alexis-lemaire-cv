@@ -24,7 +24,7 @@ export default {
 
   methods: {
     async deleteProject() {
-      this.res = (await axios.delete(`${process.env.localAPI}/projects/` + this.$route.params.id + "/" + this.secretKey)).data;
+      this.res = (await axios.delete(`${process.env.API}/projects/` + this.$route.params.id + "/" + this.secretKey)).data;
     },
   },
 };

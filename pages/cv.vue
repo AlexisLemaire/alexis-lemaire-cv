@@ -85,7 +85,7 @@ export default {
 
   methods: {
     async getAllProject() {
-      this.projectList = (await axios.get(`${process.env.localAPI}/projects`)).data;
+      this.projectList = (await axios.get(`${process.env.API}/projects`)).data;
     },
 
     setSelectedProject(project) {

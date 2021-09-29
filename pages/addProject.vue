@@ -31,7 +31,7 @@ export default {
 
   methods: {
     async postProject() {
-      this.res = (await axios.post(`${process.env.herokuAPI}/projects`, this.project)).data;
+      this.res = (await axios.post(`${process.env.API}/projects`, this.project)).data;
     },
   },
 };
