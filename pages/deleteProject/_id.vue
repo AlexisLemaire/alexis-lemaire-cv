@@ -4,7 +4,7 @@
       <h2 class="text-center">Supprimer un projet</h2>
       <v-form>
         <v-text-field v-model="secretKey" label="Clef Secrete (seul les admins peuvent modifier un projet)" />
-        <v-btn width="100%" dark @click="deleteProject()"> Modifier </v-btn>
+        <v-btn width="100%" dark @click="deleteProject()"> Supprimer </v-btn>
       </v-form>
       <v-alert v-if="res.error !== undefined" text color="red" outlined>{{ res.error }}</v-alert>
       <v-alert v-if="res.success !== undefined" text color="green" outlined>{{ res.success }}</v-alert>
@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 .v-card {
-  height: 300px;
+  height: 250px;
   overflow-y: scroll;
 }
 </style>

@@ -13,3 +13,9 @@
 <script>
 export default {};
 </script>
+
+<style>
+.v-alert {
+  margin: 1%;
+}
+</style>
