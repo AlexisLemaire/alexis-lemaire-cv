@@ -31,11 +31,11 @@
       </div>
       <br />
       <hr />
-      <h5 class="text-center">Compétences Notables: Pipelines Gitlab, tests unitaires en JS & PHP, Bootstrap, principes AGILE/ACID</h5>
+      <h5 class="text-center">Compétences Notables: Pipelines Gitlab, tests unitaires en JS & PHP, Bootstrap</h5>
       <hr />
       <h4 class="text-center">Projets</h4>
       <div>
-        <v-btn v-for="(project, index) in projectList" :key="index" width="98%" dark @click="setSelectedProject(project)">
+        <v-btn v-for="(project, index) in projectList" :key="index" width="98%" @click="setSelectedProject(project)">
           {{ project.title }}
         </v-btn>
       </div>
@@ -58,12 +58,14 @@
         <div>{{ selectedProject.description }}</div>
         <br />
         <div class="text-center">
-          <v-btn><a :href="selectedProject.link" target="_blank">Site</a></v-btn>
-          <v-btn><a :href="selectedProject.github" target="_blank">Github</a></v-btn>
-          <v-btn><a :href="selectedProject.githubAPI" target="_blank">Github API</a></v-btn>
+          <a :href="selectedProject.link" target="_blank"><v-btn>Site</v-btn></a>
+          <a :href="selectedProject.github" target="_blank"><v-btn>Github</v-btn></a>
+          <a :href="selectedProject.githubAPI" target="_blank"><v-btn>Github API</v-btn></a>
           <v-btn :to="'/changeProject/' + selectedProject.id"><v-icon>mdi-cog</v-icon></v-btn>
           <v-btn :to="'/deleteProject/' + selectedProject.id"><v-icon>mdi-delete-empty</v-icon></v-btn>
         </div>
+        <br />
+        <iframe :src="selectedProject.link" width="100%" height="390px" />
       </v-card>
     </v-dialog>
   </div>
@@ -116,7 +118,9 @@ h2 {
 }
 
 .v-btn {
-  margin: 1%;
+  margin: 0.2%;
+  margin-left: 1%;
+  border: 2px solid blue;
 }
 
 .v-separate {
