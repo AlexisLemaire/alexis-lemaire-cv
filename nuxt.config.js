@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - frontend-nuxtjs',
+    titleTemplate: '%s',
     title: 'Alexis Lemaire - CV',
     htmlAttrs: {
       lang: 'en'
