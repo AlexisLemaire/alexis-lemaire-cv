@@ -59,6 +59,9 @@
         <h3 class="text-center">{{ selectedProject.title }}</h3>
         <v-card-subtitle class="text-center"> {{ selectedProject.date }} </v-card-subtitle>
         <div>{{ selectedProject.description }}</div>
+        <div>
+          <strong>Développement: {{ selectedProject.dev }}</strong>
+        </div>
         <br />
         <div class="text-center">
           <a :href="selectedProject.link" target="_blank"><v-btn>Site</v-btn></a>

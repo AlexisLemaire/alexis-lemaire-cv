@@ -9,6 +9,7 @@
         <v-text-field v-model="project.link" label="Lien du site" />
         <v-text-field v-model="project.github" label="Github du site" />
         <v-text-field v-model="project.githubAPI" label="Github de l'API" />
+        <v-select v-model="project.dev" label="Github de l'API" :items="['Maintenu', 'Abandonné']" />
         <div>Date de mise en production :</div>
         <v-date-picker v-model="project.date" width="100%" />
 
