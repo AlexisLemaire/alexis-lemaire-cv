@@ -28,8 +28,6 @@
           <div>alexisethan.lemaire@gmail.com</div>
           <div>06 73 34 01 72</div>
           <a href="https://www.linkedin.com/in/alexis-lemaire-7b9882212/">Linkedin</a>
-          <br />
-          <a href="https://www.talent.io/candidates/381056479428/candidate_profile">Talent.io</a>
         </div>
       </div>
       <br />
