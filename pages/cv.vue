@@ -16,6 +16,7 @@
       <div class="d-flex justify-content-around h-25 w-100">
         <div class="w-25">
           <div>BAC +2 Développeur Web & Web Mobile</div>
+          <div>Stage de 3 mois en entreprise</div>
           <div>Recherche un CDD, CDI</div>
           <div>Déterminé, perfectionniste, prêt à apprendre de nouvelles technologies</div>
         </div>
@@ -32,7 +33,17 @@
       </div>
       <br />
       <hr />
-      <h5 class="text-center">Compétences Notables: Pipelines Gitlab, tests unitaires en JS & PHP, Bootstrap</h5>
+      <div class="text-center">
+        <h5>Compétences Notables</h5>
+        <br />
+        Logique d'API: Requêtes/Réponses HTTP
+        <br />
+        Pipelines Gitlab
+        <br />
+        Bootstrap
+        <br />
+        Tests unitaires
+      </div>
       <hr />
       <h4 class="text-center">Projets</h4>
       <div>
