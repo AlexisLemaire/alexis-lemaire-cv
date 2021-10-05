@@ -14,20 +14,20 @@
       <h2 class="text-center">ALEXIS LEMAIRE</h2>
       <br />
       <div class="d-flex justify-content-around h-25 w-100">
-        <div class="w-25">
-          <div>BAC +2 Développeur Web & Web Mobile</div>
-          <div>Stage de 3 mois en entreprise</div>
-          <div>Recherche un CDD, CDI</div>
-          <div>Déterminé, perfectionniste, prêt à apprendre de nouvelles technologies</div>
+        <div class="asideDesc">
+          <div><strong>Diplôme:</strong> Bac +2 Développeur Web</div>
+          <div><strong>Expérience:</strong> 3 mois en JS Fullstack</div>
+          <div><strong>Recherche:</strong> CDD, CDI</div>
+          <div><strong>Points forts:</strong> Déterminé, perfectionniste, prêt à apprendre de nouvelles technologies</div>
         </div>
         <hr class="v-separate" />
         <img src="../assets/newMoi(1).jpeg" width="25%" height="100%" />
         <hr class="v-separate" />
-        <div>
-          <div>23 ans</div>
-          <div>381 Les Etangs de Béon, 45210 Bazoches-sur-le-Betz</div>
-          <div>alexisethan.lemaire@gmail.com</div>
-          <div>06 73 34 01 72</div>
+        <div class="asideDesc">
+          <div><strong>Âge:</strong> 23 ans</div>
+          <div><strong>Mobilité:</strong> Télétravail, Orléans, Le Mans</div>
+          <div><strong>Email:</strong> alexisethan.lemaire@gmail.com</div>
+          <div><strong>Téléphone:</strong> 06 73 34 01 72</div>
           <a href="https://www.linkedin.com/in/alexis-lemaire-7b9882212/">Linkedin</a>
         </div>
       </div>
@@ -35,7 +35,6 @@
       <hr />
       <div class="text-center">
         <h5>Compétences Notables</h5>
-        <br />
         Logique d'API: Requêtes/Réponses HTTP
         <br />
         Pipelines Gitlab
@@ -116,7 +115,7 @@ export default {
 
 <style scoped>
 #cv {
-  font-size: 13px;
+  font-size: 16px;
   padding: 0.5%;
   height: 650px;
   width: 80%;
@@ -126,6 +125,10 @@ export default {
   padding: 0.5%;
   height: 650px;
   width: 9%;
+}
+
+.asideDesc {
+  width: 30%;
 }
 
 h2 {
