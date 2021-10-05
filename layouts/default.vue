@@ -2,7 +2,7 @@
   <v-app>
     <div class="d-flex justify-content-around">
       <v-btn to="/cv" width="32%" dark>CV</v-btn>
-      <v-btn @click="openMotivationDialog = !openMotivationDialog" width="32%" dark>Lettre de motivation</v-btn>
+      <v-btn width="32%" dark @click="openMotivationDialog = !openMotivationDialog">Lettre de motivation</v-btn>
       <v-btn to="/addProject" width="32%" dark>Ajouter un projet</v-btn>
     </div>
     <v-main>
@@ -15,20 +15,17 @@
         Bonjour,
         <br /><br />
         Je cherche un poste de Développeur Web Junior, Fullstack, Backend ou Frontend dans lequel je pourrais enrichir mon stack
-        technique et mon expérience professionnelle.
-        <br />
-        Ayant une forte détermination, et pensant pouvoir rapidement apprendre de nouvelles technologies, j'attendrais de l'entreprise
-        qu'elle me rémunère à la hauteur de ce que je sais faire sur le long terme.
-        <br />
-        Concernant la culture d'équipe attendue, je me montre moi-même le plus sympathique et à l'écoute que je puisse être, j'aime à
-        régler les problèmes de la façon la plus rationnelle possible, plutôt que de rajouter d'autres problèmes à ceux qui existent
-        déjà.
+        technique d'une seconde expérience professionnelle après une expérience réussie de 3 Mois en JS Fullstack.
+        <br /><br />
+        Ayant déjà prouvé que je pouvais apprendre de nouvelles technologies très rapidement, et étant doté d'une forte détermination,
+        j'espère que mon manque d'expérience en entreprise ne vous effraiera pas sur mon potentiel et mes compétences car je suis
+        certain de pouvoir vous prouver assez rapidement de quoi je suis capable. Concernant la culture d'équipe attendue, je me montre
+        moi-même le plus sympathique et à l'écoute que je puisse être, j'aime à régler les problèmes de la façon la plus rationnelle
+        possible, plutôt que de rajouter d'autres problèmes à ceux qui existent déjà.
         <br /><br />
         Enfin, je préférerais travailler sur les technologies suivantes : VueJS (Nuxt), NodeJS (Fastify, Express, Koa), MySQL/MongoDB,
-        PHP (Symfony).
-        <br />
-        Je ne suis pas fermé à une entreprise qui voudrait que je me forme en Python, React ou Angular pour répondre aux besoins du
-        stack utilisé.
+        PHP (Symfony). Cependant, je ne suis pas fermé à une entreprise qui voudrait que je me forme en Python, React ou Angular pour
+        répondre aux besoins du stack utilisé.
         <br /><br />
         J'espère que cette description saura vous plaire, merci d'avance à vous.
       </v-card>
