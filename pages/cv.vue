@@ -16,7 +16,7 @@
       <div class="d-flex justify-content-around h-25 w-100">
         <div class="asideDesc">
           <div><strong>Diplôme:</strong> Bac +2 Développeur Web</div>
-          <div><strong>Expérience:</strong> 3 mois en JS Fullstack</div>
+          <div><strong>Expérience:</strong> 4 mois en JS Fullstack</div>
           <div><strong>Recherche:</strong> CDD, CDI</div>
           <div><strong>Points forts:</strong> Déterminé, perfectionniste, prêt à apprendre de nouvelles technologies</div>
         </div>
@@ -35,13 +35,13 @@
       <hr />
       <div class="text-center">
         <h5>Compétences Notables</h5>
-        Logique d'API: Requêtes/Réponses HTTP
+        API Rest
         <br />
-        Pipelines Gitlab
+        Intégration continue (Pipelines Gitlab) | Tests unitaires
+        <br />
+        Typescript
         <br />
         Bootstrap
-        <br />
-        Tests unitaires
       </div>
       <hr />
       <h4 class="text-center">Projets</h4>
@@ -67,10 +67,12 @@
         <h3 class="text-center">{{ selectedProject.title }}</h3>
         <v-card-subtitle class="text-center"> {{ selectedProject.date }} </v-card-subtitle>
         <div>{{ selectedProject.description }}</div>
-        <div>
-          <strong>Développement: {{ selectedProject.dev }}</strong>
-        </div>
         <br />
+        <strong>Développement: </strong> {{ selectedProject.dev }}
+        <br />
+        <strong>Frontend:</strong> {{ selectedProject.frontendTech }}
+        <br />
+        <strong>Backend:</strong> {{ selectedProject.backendTech }} <br /><br />
         <div class="text-center">
           <a :href="selectedProject.link" target="_blank"><v-btn>Site</v-btn></a>
           <a :href="selectedProject.github" target="_blank"><v-btn>Github</v-btn></a>

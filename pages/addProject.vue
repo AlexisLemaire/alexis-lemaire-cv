@@ -9,6 +9,8 @@
         <v-text-field v-model="project.link" label="Lien du site" required :rules="requiredRules" />
         <v-text-field v-model="project.github" label="Github du site" required :rules="requiredRules" />
         <v-text-field v-model="project.githubAPI" label="Github de l'API" required :rules="requiredRules" />
+        <v-text-field v-model="project.frontendTech" label="Techs Frontend" required :rules="requiredRules" />
+        <v-text-field v-model="project.backendTech" label="Techs Backend" required :rules="requiredRules" />
         <v-select v-model="project.dev" label="Développement" :items="['Maintenu', 'Abandonné']" required :rules="requiredRules" />
         <div>Date de mise en production :</div>
         <v-date-picker v-model="project.date" width="100%" />
