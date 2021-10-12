@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <div class="d-flex justify-content-around">
-      <v-btn to="/cv" width="32%" dark>CV</v-btn>
-      <v-btn width="32%" dark @click="openMotivationDialog = !openMotivationDialog">Lettre de motivation</v-btn>
-      <v-btn to="/addProject" width="32%" dark>Ajouter un projet</v-btn>
+      <v-btn to="/cv" width="32%">CV</v-btn>
+      <v-btn width="32%" @click="openMotivationDialog = !openMotivationDialog">Motivations</v-btn>
+      <v-btn to="/addProject" width="32%">Ajout projet</v-btn>
     </div>
     <v-main>
       <Nuxt />
@@ -43,8 +43,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .v-alert {
   margin: 1%;
+}
+
+.v-btn {
+  background-color: rgb(185, 185, 240) !important;
+}
+
+.v-btn:hover {
+  background-color: lawngreen !important;
 }
 </style>
