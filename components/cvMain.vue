@@ -27,7 +27,7 @@
         <h5>Compétences Notables</h5>
         API Rest
         <br />
-        Intégration continue (Pipelines Gitlab) | TDD
+        Intégration continue (CI Gitlab/Github) | TDD
         <br />
         Typescript
         <br />
