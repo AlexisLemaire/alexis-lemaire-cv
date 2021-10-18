@@ -29,17 +29,23 @@
         <h5>Compétences Notables</h5>
         API Rest
         <br />
-        Intégration continue (CI Gitlab/Github) | TDD
+        Intégration continue (CI Gitlab/Github)
+        <br />
+        Tests Unitaires (TDD)
+        <br />
+        Programmation Objet (POO)
         <br />
         Typescript
         <br />
         Bootstrap
       </div>
       <hr />
-      <h4 class="text-center">Projets</h4>
-      <v-btn v-for="(project, index) in project_list" :key="index" @click="setSelectedProject(project)">
-        {{ project.title }}
-      </v-btn>
+      <h5 class="text-center">Projets</h5>
+      <div class="projets">
+        <v-btn v-for="(project, index) in project_list" :key="index" @click="setSelectedProject(project)">
+          {{ project.title }}
+        </v-btn>
+      </div>
     </v-card>
 
     <v-dialog v-model="isOpenDialog" class="p-4 bg-dark">
