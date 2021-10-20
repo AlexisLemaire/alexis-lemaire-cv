@@ -16,7 +16,7 @@
         <hr />
         <div>
           <div><strong>Âge:</strong> 23 ans</div>
-          <div><strong>Mobilité:</strong> Télétravail, Orléans, Le Mans</div>
+          <div><strong>Mobilité:</strong> Nord-Ouest (Orléans, Le Mans, Tours)</div>
           <div><strong>Email:</strong> alexisethan.lemaire@gmail.com</div>
           <div><strong>Téléphone:</strong> 06 73 34 01 72</div>
           <a href="https://www.linkedin.com/in/alexis-lemaire-7b9882212/">Linkedin</a>

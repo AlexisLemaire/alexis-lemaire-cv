@@ -14,14 +14,21 @@
         <img src="../assets/newMoi(1).jpeg" width="25%" height="100%" />
         <div class="asideDesc">
           <div><strong>Âge:</strong> 23 ans</div>
-          <div><strong>Mobilité:</strong> Télétravail, Orléans, Le Mans</div>
+          <div><strong>Mobilité:</strong> Nord-Ouest (Orléans, Le Mans, Tours)</div>
           <div><strong>Email:</strong> alexisethan.lemaire@gmail.com</div>
           <div><strong>Téléphone:</strong> 06 73 34 01 72</div>
           <a href="https://www.linkedin.com/in/alexis-lemaire-7b9882212/">Linkedin</a>
         </div>
       </div>
 
-      <br />
+      <hr />
+      <div class="projets">
+        <h5 class="text-center">Projets</h5>
+        <v-btn v-for="(project, index) in project_list" :key="index" @click="setSelectedProject(project)">
+          {{ project.title }}
+        </v-btn>
+      </div>
+
       <hr />
       <div class="text-center">
         <h5>Compétences Notables</h5>
@@ -36,13 +43,6 @@
         Typescript
         <br />
         Bootstrap
-      </div>
-      <hr />
-      <h5 class="text-center">Projets</h5>
-      <div class="projets">
-        <v-btn v-for="(project, index) in project_list" :key="index" @click="setSelectedProject(project)">
-          {{ project.title }}
-        </v-btn>
       </div>
     </v-card>
 
@@ -100,7 +100,9 @@ export default {
 }
 
 .projets {
-  height: 17%;
+  border: 3px solid;
+  padding: 1%;
+  height: 26%;
   overflow-y: scroll;
 }
 
@@ -116,12 +118,14 @@ h2 {
   width: 98%;
   margin: 0.2%;
   margin-left: 1%;
-  background-color: rgb(143, 143, 199) !important;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: black !important;
+  color: white;
+  border: 2px solid mediumblue;
+  border-radius: 15%;
 }
 
 .v-btn:hover {
-  background-color: green !important;
+  background-color: chartreuse !important;
 }
 
 .v-dialog a,
