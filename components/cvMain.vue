@@ -131,9 +131,6 @@ h2 {
 .v-dialog a,
 .v-dialog .v-btn {
   width: 15%;
-}
-
-.v-dialog .v-btn {
-  background-color: lavender !important;
+  text-decoration: none;
 }
 </style>
