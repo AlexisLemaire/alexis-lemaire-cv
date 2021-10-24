@@ -3,9 +3,9 @@
     <v-card class="skills" outlined>
       <img src="../assets/htmlCSSJS.png" height="14%" width="99%" />
       <img src="../assets/VueJS.jpg" height="14%" width="99%" />
-      <img src="../assets/VuetifyJS.png" height="14%" width="99%" />
       <img src="../assets/NuxtJS.png" height="14%" width="99%" />
       <img src="../assets/AngularJS.png" height="14%" width="99%" />
+      <img src="../assets/JestCypress.png" height="14%" width="99%" />
       <img src="../assets/Github.png" height="14%" width="99%" />
       <img src="../assets/Gitlab.png" height="14%" width="99%" />
     </v-card>

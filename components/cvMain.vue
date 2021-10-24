@@ -7,7 +7,7 @@
       <div class="d-flex justify-content-around h-25 w-100">
         <div class="asideDesc">
           <div><strong>Diplôme:</strong> Bac +2 Développeur Web</div>
-          <div><strong>Expérience:</strong> 4 mois en JS Fullstack</div>
+          <div><strong>Expérience:</strong> 5 mois</div>
           <div><strong>Recherche:</strong> CDD, CDI</div>
           <div><strong>Points forts:</strong> Déterminé, perfectionniste, prêt à apprendre de nouvelles technologies</div>
         </div>
