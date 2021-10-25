@@ -36,9 +36,7 @@
         <br />
         Intégration continue (CI Gitlab/Github)
         <br />
-        Tests Unitaires (TDD)
-        <br />
-        Programmation Objet (POO)
+        Tests Unitaires / End-to-End
         <br />
         Typescript
         <br />
