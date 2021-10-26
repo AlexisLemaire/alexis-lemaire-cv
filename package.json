@@ -7,7 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "eslint": "npx eslint pages/* layouts/* components/* --no-error-on-unmatched-pattern"
+    "eslint": "npx eslint pages/* layouts/* components/* --no-error-on-unmatched-pattern",
+    "test:e2e": "cypress run",
+    "test:e2e:ui": "cypress open"
   },
   "dependencies": {
     "@nuxtjs/dotenv": "^1.4.1",
@@ -20,6 +22,7 @@
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/vuetify": "^1.12.1",
     "babel-eslint": "^10.1.0",
+    "cypress": "^8.7.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",

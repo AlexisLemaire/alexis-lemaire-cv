@@ -20,5 +20,6 @@
     ],
     "rules": { 
         "prettier/prettier": ["error", {"printWidth": 135}]
-    }
+    },
+    "ignorePatterns": "cypress/*"
 }

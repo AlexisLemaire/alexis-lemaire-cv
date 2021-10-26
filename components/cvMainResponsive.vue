@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card id="cv" elevation="22">
-      <h2 class="text-center">ALEXIS LEMAIRE</h2>
+      <h2 class="text-center">ALEXIS LEMAIRE - DEV WEB FULLSTACK</h2>
       <br />
 
       <div class="w-100">
@@ -9,16 +9,16 @@
         <hr />
         <div>
           <div><strong>Diplôme:</strong> Bac +2 Développeur Web</div>
-          <div><strong>Expérience:</strong> 4 mois en JS Fullstack</div>
+          <div><strong>Expérience:</strong> 5 mois</div>
           <div><strong>Recherche:</strong> CDD, CDI</div>
-          <div><strong>Points forts:</strong> Déterminé, perfectionniste, prêt à apprendre de nouvelles technologies</div>
+          <div><strong>Points forts:</strong> Perfectionniste, veille technique</div>
         </div>
         <hr />
         <div>
           <div><strong>Âge:</strong> 23 ans</div>
-          <div><strong>Mobilité:</strong> Nord-Ouest (Orléans, Le Mans, Tours)</div>
+          <div><strong>Mobilité:</strong> Nord-Ouest (Orléans, Tours, Rennes)</div>
           <div><strong>Email:</strong> alexisethan.lemaire@gmail.com</div>
-          <div><strong>Téléphone:</strong> 06 73 34 01 72</div>
+          <a href="https://github.com/AlexisLemaire">Github</a> <br />
           <a href="https://www.linkedin.com/in/alexis-lemaire-7b9882212/">Linkedin</a>
         </div>
       </div>
