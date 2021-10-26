@@ -11,5 +11,5 @@ stages: # List of stages for jobs, and their order of execution
 eslint-check-job: # This job runs in the build stage, which runs first.
   stage: build
   script:
-    - npm run lint-fix
-    - npm run lint-check
+    - npm run eslint -- --fix
+    - npm run eslint

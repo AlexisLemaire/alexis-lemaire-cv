@@ -7,8 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint-check": "npx eslint --ext .js,.vue pages/* layouts/*",
-    "lint-fix": "npx eslint --fix --ext .js,.vue pages/* layouts/*"
+    "eslint": "npx eslint pages/* layouts/* components/* --no-error-on-unmatched-pattern"
   },
   "dependencies": {
     "@nuxtjs/dotenv": "^1.4.1",
