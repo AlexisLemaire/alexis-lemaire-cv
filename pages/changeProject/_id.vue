@@ -5,6 +5,7 @@
       <v-form v-model="isValid">
         <v-text-field v-model="project.secretKey" label="Clef Secrete" required :rules="requiredRules" />
         <v-text-field v-model="project.title" label="Titre" required :rules="requiredRules" />
+        <v-text-field v-model="project.client" label="Client" required :rules="requiredRules" />
         <v-text-field v-model="project.description" label="Description" required :rules="requiredRules" />
         <v-text-field v-model="project.link" label="Lien du site" required :rules="requiredRules" />
         <v-text-field v-model="project.github" label="Github du site" required :rules="requiredRules" />
