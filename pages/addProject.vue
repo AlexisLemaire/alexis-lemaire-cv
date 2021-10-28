@@ -19,7 +19,7 @@
           required
           :rules="requiredRules"
         />
-        <v-select v-model="project.responsive" label="Développement" :items="['Oui', 'Non']" required :rules="requiredRules" />
+        <v-select v-model="project.responsive" label="Responsive" :items="['Oui', 'Non']" required :rules="requiredRules" />
         <div>Date de mise en production :</div>
         <v-date-picker v-model="project.date" width="100%" />
 
