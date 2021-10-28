@@ -165,7 +165,6 @@ export default {
     },
 
     setSelectedProject(project) {
-      console.log(project);
       this.isOpenDialog = !this.isOpenDialog;
       this.selectedProject = project;
     },
