@@ -115,8 +115,8 @@
         <strong>Client: </strong> {{ selectedProject.client }} <br />
         <strong>Développement: </strong> {{ selectedProject.dev }} <br />
         <strong>Technos Frontend:</strong> {{ selectedProject.frontendTech }} <br />
-        <strong>Technos Backend:</strong> {{ selectedProject.backendTech }} <br /><br />
-        <strong>Responsive: </strong> {{ selectedProject.responsive }} <br />
+        <strong>Technos Backend:</strong> {{ selectedProject.backendTech }} <br />
+        <strong>Responsive: </strong> {{ selectedProject.responsive }} <br /><br />
         <div class="text-center">
           <a :href="selectedProject.link" target="_blank"><v-btn>Site</v-btn></a>
           <a :href="selectedProject.github" target="_blank"><v-btn>Github</v-btn></a>
