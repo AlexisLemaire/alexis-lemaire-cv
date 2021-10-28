@@ -63,7 +63,7 @@
         </div>
         <br />
         <v-btn v-for="(project, index) in projectList" :key="index" @click="setSelectedProject(project)">
-          {{ project.title }} | {{ project.date }} | Client: {{ project.client }}
+          {{ project.title }} | {{ project.date }} | Client: {{ project.Client }}
         </v-btn>
       </div>
 
@@ -112,7 +112,7 @@
         <v-card-subtitle class="text-center"> {{ selectedProject.date }} </v-card-subtitle>
         <div>{{ selectedProject.description }}</div>
         <br />
-        <strong>Client: </strong> {{ selectedProject.client }} <br />
+        <strong>Client: </strong> {{ selectedProject.Client }} <br />
         <strong>Développement: </strong> {{ selectedProject.dev }} <br />
         <strong>Frontend:</strong> {{ selectedProject.frontendTech }} <br />
         <strong>Backend:</strong> {{ selectedProject.backendTech }} <br /><br />
@@ -165,6 +165,7 @@ export default {
     },
 
     setSelectedProject(project) {
+      console.log(project);
       this.isOpenDialog = !this.isOpenDialog;
       this.selectedProject = project;
     },
