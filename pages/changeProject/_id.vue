@@ -70,4 +70,8 @@ export default {
   height: 10%;
   margin-bottom: 1%;
 }
+
+.v-alert {
+  margin: 1%;
+}
 </style>

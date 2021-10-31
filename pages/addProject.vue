@@ -62,4 +62,8 @@ export default {
   margin-bottom: 1%;
   margin-top: 1%;
 }
+
+.v-alert {
+  margin: 1%;
+}
 </style>

@@ -35,4 +35,8 @@ export default {
   height: 250px;
   overflow-y: scroll;
 }
+
+.v-alert {
+  margin: 1%;
+}
 </style>
