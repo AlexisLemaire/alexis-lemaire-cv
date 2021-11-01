@@ -20,23 +20,8 @@
       <h2 class="text-center">ALEXIS LEMAIRE: DEV WEB FULLSTACK</h2>
       <p class="text-center text-secondary">Adresse du site: https://alexis-lemaire-cv.herokuapp.com/</p>
 
-      <div class="d-flex justify-content-around">
-        <div class="asideDesc">
-          <div><strong>Diplôme:</strong> Bac +2 Développeur Web</div>
-          <div><strong>Expérience:</strong> 5 mois</div>
-          <div><strong>Recherche:</strong> CDD, CDI</div>
-          <div><strong>Point fort:</strong> Organisateur</div>
-          <div><strong>Langues:</strong> Français, Anglais</div>
-        </div>
-        <img src="../assets/newMoi(1).jpeg" />
-        <div class="asideDesc">
-          <div><strong>Âge:</strong> 23 ans</div>
-          <div><strong>Mobilité:</strong> Nord-Ouest (Orléans, Tours, Rennes)</div>
-          <div><strong>Email:</strong> alexisethan.lemaire@gmail.com</div>
-          <a href="https://github.com/AlexisLemaire">Github</a> <br />
-          <a href="https://www.linkedin.com/in/alexis-lemaire-7b9882212/">Linkedin</a>
-        </div>
-      </div>
+      <entete class="d-none d-md-flex justify-content-around" />
+      <enteteResponsive class="d-md-none" />
 
       <hr />
       <div>
@@ -63,47 +48,13 @@
         </div>
         <br />
         <v-btn v-for="(project, index) in projectList" :key="index" @click="setSelectedProject(project)">
-          {{ project.title }} | {{ project.date }} | Client: {{ project.client }}
+          {{ project.title }} | {{ project.date }}| <span class="d-none d-sm-inline">Client: {{ project.client }}</span>
         </v-btn>
       </div>
 
       <hr />
-      <div>
-        <h5 class="text-center">Compétences Informatiques</h5>
-        <div class="d-flex justify-content-around">
-          <div class="competences">
-            · API Rest <br />
-            · Intégration continue: CI Gitlab-hub <br />
-            · Tests Unitaires / End-to-End <br />
-            · Méthodologies TDD/MVC/SCRUM <br />
-            · Protocole HTTP <br />
-          </div>
-          <div class="competences">
-            · Javascript <br />
-            · Typescript <br />
-            · Vue.js <br />
-            · Angular <br />
-            · Node.js <br />
-          </div>
-        </div>
-        <hr class="competencesHR" />
-        <div class="d-flex justify-content-around">
-          <div class="competences">
-            · HTML <br />
-            · CSS <br />
-            · Bootstrap <br />
-            · Librairies UI (Angular Materials, Vuetify..) <br />
-            · Wordpress (Débutant) <br />
-          </div>
-          <div class="competences">
-            · PHP 8 <br />
-            · Symfony 5 <br />
-            · Github <br />
-            · Gitlab <br />
-            · RabbitMQ (Débutant) <br />
-          </div>
-        </div>
-      </div>
+      <competences class="d-none d-sm-block" />
+      <competencesResponsive class="d-sm-none" />
     </v-card>
 
     <v-dialog v-model="isOpenDialog">
@@ -186,30 +137,9 @@ export default {
 }
 
 #cv {
-  padding: 1%;
+  padding: 2%;
   margin: 1%;
   width: 98%;
-}
-
-#cv img {
-  width: 25%;
-  height: 60%;
-}
-
-.asideDesc {
-  width: 28%;
-  margin: 2%;
-}
-
-.competences {
-  width: 31%;
-  border: 4px double black;
-  padding: 1%;
-}
-
-.competencesHR {
-  margin-left: 30%;
-  width: 40%;
 }
 
 .v-btn {
@@ -229,13 +159,27 @@ export default {
 
 .v-dialog a,
 .v-dialog .v-btn {
-  width: 15%;
+  width: 11%;
   text-decoration: none;
 }
 
 @media screen and (max-width: 960px) {
   .skills {
-    width: 25%;
+    display: none;
+  }
+
+  #cv {
+    padding: 8%;
+  }
+
+  #cv .v-btn {
+    font-size: 70%;
+  }
+
+  .v-dialog a,
+  .v-dialog .v-btn {
+    width: 100% !important;
+    display: block;
   }
 }
 </style>
