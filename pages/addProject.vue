@@ -1,8 +1,13 @@
 <template>
   <div class="p-3">
-    <v-card class="p-3" elevation="22">
-      <h2 class="text-center">Ajouter un nouveau projet</h2>
+    <v-card class="p-3 text-center" elevation="22">
       <v-form v-model="isValid">
+        <h1 class="h3 mb-3 font-weight-normal">Ajouter un projet</h1>
+        <strong>
+          Vous pouvez ajouter un nouveau projet via cette page. Le projet ne sera ajouté que si vous possedez la bonne clef secrète.
+        </strong>
+        <br /><br />
+
         <v-text-field v-model="project.secretKey" label="Clef Secrete" required :rules="requiredRules" />
         <v-text-field v-model="project.title" label="Titre" required :rules="requiredRules" />
         <v-text-field v-model="project.client" label="Client" required :rules="requiredRules" />

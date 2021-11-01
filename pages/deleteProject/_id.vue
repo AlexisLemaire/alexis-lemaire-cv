@@ -1,8 +1,13 @@
 <template>
   <div class="p-3">
-    <v-card class="p-3" elevation="22">
-      <h2 class="text-center">Supprimer un projet</h2>
+    <v-card class="p-3 text-center" elevation="22">
       <v-form>
+        <h1 class="h3 mb-3 font-weight-normal">Supprimer le projet : {{ project.title }}</h1>
+        <strong>
+          Vous pouvez supprimer le projet selectionné via cette page. Le projet ne sera supprimé que si vous possedez la bonne clef
+          secrète.
+        </strong>
+        <br /><br />
         <v-text-field v-model="secretKey" label="Clef Secrete (seul les admins peuvent modifier un projet)" />
         <v-btn width="100%" dark @click="deleteProject()"> Supprimer </v-btn>
       </v-form>
@@ -19,7 +24,12 @@ export default {
     return {
       secretKey: 0,
       res: {},
+      project: {},
     };
+  },
+
+  async created() {
+    this.project = (await axios.get(`${process.env.API}/projects/` + this.$route.params.id)).data;
   },
 
   methods: {

@@ -1,8 +1,13 @@
 <template>
   <div class="p-3">
-    <v-card class="p-3" elevation="22">
-      <h2 class="text-center">Modifier un projet</h2>
+    <v-card class="p-3 text-center" elevation="22">
       <v-form v-model="isValid">
+        <h1 class="h3 mb-3 font-weight-normal">Modifier le projet : {{ project.title }}</h1>
+        <strong>
+          Vous pouvez modifier le projet selectionné via cette page. Le projet ne sera modifié que si vous possedez la bonne clef
+          secrète.
+        </strong>
+        <br /><br />
         <v-text-field v-model="project.secretKey" label="Clef Secrete" required :rules="requiredRules" />
         <v-text-field v-model="project.title" label="Titre" required :rules="requiredRules" />
         <v-text-field v-model="project.client" label="Client" required :rules="requiredRules" />
