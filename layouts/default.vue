@@ -17,9 +17,11 @@ export default {};
 
 <style scoped>
 .v-btn {
-  background-color: red !important;
+  background-color: black !important;
   width: 48%;
-  border: 1px solid black;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
 }
 
 .v-btn:hover {

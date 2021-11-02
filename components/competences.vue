@@ -4,9 +4,9 @@
     <div class="d-flex justify-content-around">
       <div class="competences">
         · API Rest <br />
-        · Intégration continue: CI Gitlab-hub <br />
-        · Tests Unitaires / End-to-End <br />
-        · Méthodologies TDD/MVC/SCRUM <br />
+        · CI Gitlab-hub <br />
+        · Tests Unitaires | E2E (Cypress,Jest,PHPUnit) <br />
+        · Méthodologies TDD | MVC | SCRUM <br />
         · Protocole HTTP <br />
       </div>
       <div class="competences">
@@ -24,13 +24,13 @@
         · CSS <br />
         · Bootstrap <br />
         · Librairies UI (Angular Materials, Vuetify..) <br />
-        · Wordpress (Débutant) <br />
+        · Wordpress <br />
       </div>
       <div class="competences">
         · PHP 8 <br />
         · Symfony 5 <br />
-        · Github <br />
-        · Gitlab <br />
+        · MySQL <br />
+        · MongoDB <br />
         · RabbitMQ (Débutant) <br />
       </div>
     </div>

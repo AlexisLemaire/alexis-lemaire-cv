@@ -1,24 +1,8 @@
 <template>
   <div class="d-flex justify-content-between p-3">
-    <v-card class="skills" outlined>
-      <img src="../assets/htmlCSSJS.png" />
-      <hr />
-      <img src="../assets/VueJS.jpg" />
-      <hr />
-      <img src="../assets/NuxtJS.png" />
-      <hr />
-      <img src="../assets/AngularJS.png" />
-      <hr />
-      <img src="../assets/JestCypress.png" />
-      <hr />
-      <img src="../assets/Github.png" />
-      <hr />
-      <img src="../assets/Gitlab.png" />
-    </v-card>
-
     <v-card id="cv" elevation="22">
       <h2 class="text-center">ALEXIS LEMAIRE: DEV WEB FULLSTACK</h2>
-      <p class="text-center text-secondary">Adresse du site: https://alexis-lemaire-cv.herokuapp.com/</p>
+      <p class="text-center text-secondary">https://alexis-lemaire-cv.herokuapp.com/</p>
 
       <entete class="d-none d-md-flex justify-content-around" />
       <enteteResponsive class="d-md-none" />
@@ -27,34 +11,31 @@
       <div>
         <h5 class="text-center">Présentation</h5>
         <p>
-          Bonjour, je suis un Développeur Web Junior en recherche d'expérience. Je suis apte et intéressé pour faire aussi bien du
-          Backend, que du Frontend ou du Fullstack. Mon profil est celui d'un <strong>organisateur.</strong> Lorsque je développe sur
-          des projets, que ce soit les miens ou des projets pour des tiers, j'aime que
-          <strong>la structure du projet et du code au sein de chaque fichier soit la plus claire et la plus légère possible.</strong>
-          J'aime que le travail nécessaire soit effectué avec le moins de code qu'il se peut, afin que la maintenance ou l'amélioration
-          des projets puisse se faire de façon simple. Enfin, je suis quelqu'un de plutôt motivé et travailleur au quotidien, je n'aime
-          pas laisser des tâches sur le tas, c'est pourquoi j'ai tendance à travailler beaucoup afin de pouvoir répondre aux défis que
-          je me propose.
+          Bonjour, je suis un Développeur Web Junior en recherche d'expérience. Je suis intéressé par toutes les facettes du
+          développement web (Back, Front, Tests). Mon profil est celui d'un <strong>organisateur.</strong> Lorsque je développe sur
+          projets, j'aime que
+          <strong>la structure du projet et du code au sein de chaque fichier soit la plus claire et la plus légère possible</strong>,
+          afin que la maintenance ou l'amélioration des projets puisse se faire de façon simple. Enfin, je suis quelqu'un de motivé et
+          travailleur au quotidien, j'ai tendance à fournir beaucoup d'efforts afin de pouvoir répondre aux défis que je me propose.
         </p>
-      </div>
-
-      <hr />
-      <div>
-        <h5 class="text-center">Projets & Expériences</h5>
-        <div>
-          Ci-dessous, vous retrouverez la liste des projets que j'ai choisi de publier sur internet. De nombreux side-projects qui
-          n'ont jamais vu le jour ou que j'ai trouvé trop décevants n'y apparaissent pas, les plus anciens datent de Mars 2021.
-          <strong>Cliquez sur un projet pour voir le détail</strong>
-        </div>
-        <br />
-        <v-btn v-for="(project, index) in projectList" :key="index" @click="setSelectedProject(project)">
-          {{ project.title }} | {{ project.date }}| <span class="d-none d-sm-inline">Client: {{ project.client }}</span>
-        </v-btn>
       </div>
 
       <hr />
       <competences class="d-none d-sm-block" />
       <competencesResponsive class="d-sm-none" />
+
+      <hr />
+      <div>
+        <h5 class="text-center">Projets</h5>
+        <div>
+          Ci-dessous, vous retrouverez la liste des projets que j'ai choisi de publier sur internet.
+          <strong>Cliquez sur un projet pour voir le détail</strong>
+        </div>
+        <br />
+        <v-btn v-for="(project, index) in projectList" :key="index" @click="setSelectedProject(project)">
+          {{ project.date }} : {{ project.title }} - - - <span class="d-none d-sm-inline">Client: {{ project.client }}</span>
+        </v-btn>
+      </div>
     </v-card>
 
     <v-dialog v-model="isOpenDialog">
@@ -77,22 +58,6 @@
         </div>
       </v-card>
     </v-dialog>
-
-    <v-card class="skills" outlined>
-      <img src="../assets/NodeJS.png" />
-      <hr />
-      <img src="../assets/Fastify.png" />
-      <hr />
-      <img src="../assets/ExpressJS.png" />
-      <hr />
-      <img src="../assets/PHP.jpg" />
-      <hr />
-      <img src="../assets/Symfony.png" />
-      <hr />
-      <img src="../assets/mySQL.png" />
-      <hr />
-      <img src="../assets/mongoDB.png" />
-    </v-card>
   </div>
 </template>
 
@@ -107,8 +72,11 @@ export default {
     };
   },
 
-  created() {
-    this.getAllProject();
+  async created() {
+    await this.getAllProject();
+    for (const project of this.projectList) {
+      project.date = await this.setMonthDate(project.date);
+    }
   },
 
   methods: {
@@ -120,26 +88,38 @@ export default {
       this.isOpenDialog = !this.isOpenDialog;
       this.selectedProject = project;
     },
+
+    setMonthDate(date) {
+      let numMois = date.substring(5, 7);
+      const firstNum = numMois.substring(0, 1);
+      if (firstNum === "0") {
+        numMois = numMois.substring(1);
+      }
+      const annee = date.substring(0, 4);
+      const calendrier = [
+        "Handle0",
+        "Janvier",
+        "Fevrier",
+        "Mars",
+        "Avril",
+        "Mai",
+        "Juin",
+        "Juillet",
+        "Août",
+        "Septembre",
+        "Octobre",
+        "Novembre",
+        "Decembre",
+      ];
+      return `${calendrier[numMois]} ${annee}`;
+    },
   },
 };
 </script>
 
 <style scoped>
-.skills {
-  padding: 1%;
-  width: 9%;
-  height: 1000px;
-}
-
-.skills img {
-  height: 11%;
-  width: 100%;
-}
-
 #cv {
   padding: 2%;
-  margin: 1%;
-  width: 98%;
 }
 
 .v-btn {
