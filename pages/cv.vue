@@ -25,8 +25,8 @@
       <competencesResponsive class="d-sm-none" />
 
       <hr />
-      <div>
-        <h5 class="text-center">Projets</h5>
+      <div class="text-center">
+        <h5>Projets</h5>
         <div>
           Ci-dessous, vous retrouverez la liste des projets que j'ai choisi de publier sur internet.
           <strong>Cliquez sur un projet pour voir le détail</strong>

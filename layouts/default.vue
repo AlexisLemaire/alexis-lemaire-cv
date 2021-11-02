@@ -20,7 +20,7 @@ export default {};
   background-color: black !important;
   width: 48%;
   border: 2px solid white;
-  color: white;
+  color: white !important;
   font-weight: bold;
 }
 
