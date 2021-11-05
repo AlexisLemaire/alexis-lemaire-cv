@@ -28,7 +28,7 @@ describe("userExperience", () => {
     cy.get(".v-select__slot").eq(1).type("Non{enter}");
     cy.get(".v-picker td").eq(25).click();
     cy.get("form button").contains("Ajouter").click();
-    cy.get("form button").contains("Ajouter").click();
+    cy.wait(3000);
     cy.get(".v-alert");
   });
 });
