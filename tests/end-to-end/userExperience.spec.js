@@ -7,6 +7,7 @@ describe("userExperience", () => {
   });
 
   it("should seek for navbar links and visit ajout projet page", () => {
+    cy.wait(2000);
     cy.get("nav a span").contains("CV");
     cy.get("nav a span").contains("Ajout projet").click();
     cy.visit("https://alexis-lemaire-cv.herokuapp.com/addProject");
