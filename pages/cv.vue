@@ -33,7 +33,7 @@
         </div>
         <br />
         <v-btn v-for="(project, index) in projectList" :key="index" @click="setSelectedProject(project)">
-          {{ project.date }} : {{ project.title }} - - - <span class="d-none d-sm-inline">Client: {{ project.client }}</span>
+          {{ project.date }} : {{ project.title }}
         </v-btn>
       </div>
     </v-card>
