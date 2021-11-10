@@ -4,9 +4,10 @@
     <div class="d-flex justify-content-around">
       <div class="competences">
         · API Rest <br />
-        · CI Gitlab-hub <br />
-        · Tests Unitaires | E2E (Cypress, Jest, PHPUnit) <br />
-        · Méthodologies TDD | MVC | SCRUM <br />
+        · Gitlab-Github CI/CD<br />
+        · Langages de configuration JSON | YML<br />
+        · Tests (E2E => Cypress, Unitaires => Jest, PHPUnit) <br />
+        · Méthodologies (TDD | MVC | SCRUM) <br />
         · Protocole HTTP (Postman) <br />
       </div>
       <div class="competences">
@@ -15,7 +16,7 @@
         · Vue.js <br />
         · Angular <br />
         · Node.js <br />
-        · Nest.js, Express, Fastify <br />
+        · Express, Fastify, Nest.js <br />
       </div>
     </div>
     <hr />
