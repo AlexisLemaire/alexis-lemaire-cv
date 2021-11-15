@@ -4,11 +4,11 @@
     <div class="d-flex justify-content-around">
       <div class="competences">
         · API Rest <br />
-        · Gitlab-Github CI/CD<br />
-        · Langages de configuration JSON | YML<br />
-        · Tests (E2E => Cypress, Unitaires => Jest, PHPUnit) <br />
-        · Méthodologies (TDD | MVC | SCRUM) <br />
+        · Outils d'intégration: Gitlab, Github<br />
+        · Maîtrise des tests: Cypress, Jest, PHPUnit<br />
+        · Méthodologies: AGILE SCRUM, MVC, TDD <br />
         · Protocole HTTP (Postman) <br />
+        · Langages de configuration: JSON, YML<br />
       </div>
       <div class="competences">
         · Javascript <br />
