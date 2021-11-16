@@ -25,6 +25,23 @@
       <competencesResponsive class="d-sm-none" />
 
       <hr />
+      <div>
+        <h5 class="text-center">Expériences</h5>
+        <p>
+          <strong>Digital Expert : Septembre 2021 à Novembre 2021</strong> <br />
+          · Apprentissage des bonnes pratiques pour créer un projet web (structure, gestion des dépendances) <br />
+          · Apprentissage et mise en place des tests automatisés <br />
+          · Mise en place d'une API Rest avec le framework Node.js Fastify <br />
+          · Mise en place d'une interface web avec le framework Vue.js <br />
+          · Utilisation de la méthodologie SCRUM <br /><br />
+          <strong>Projets scolaires & personnels : Mai 2021 à Septembre 2021</strong> <br />
+          · Apprentissage des bases du développement javascript fullstack (architecture Node, architecture des frameworks frontend)<br />
+          · Apprentissage des bases du développement PHP Symfony <br />
+          · Mise en place de solutions de base de données (SQLite, MySQL, MongoDB) <br />
+        </p>
+      </div>
+
+      <hr />
       <div class="text-center">
         <h5>Projets</h5>
         <div>
