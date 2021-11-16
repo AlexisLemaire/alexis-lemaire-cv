@@ -30,7 +30,7 @@
         <p>
           <strong>Digital Expert : Septembre 2021 à Novembre 2021</strong> <br />
           · Apprentissage des bonnes pratiques pour créer un projet web (structure, gestion des dépendances) <br />
-          · Apprentissage et mise en place des tests automatisés <br />
+          · Mise en place des tests automatisés pour assurer la non-régression des projets lors des déploiements <br />
           · Mise en place d'une API Rest avec le framework Node.js Fastify <br />
           · Mise en place d'une interface web avec le framework Vue.js <br />
           · Utilisation de la méthodologie SCRUM <br /><br />
