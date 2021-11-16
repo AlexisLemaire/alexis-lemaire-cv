@@ -21,10 +21,6 @@
       </div>
 
       <hr />
-      <competences class="d-none d-sm-block" />
-      <competencesResponsive class="d-sm-none" />
-
-      <hr />
       <div>
         <h5 class="text-center">Expériences</h5>
         <p>
@@ -40,6 +36,10 @@
           · Mise en place de solutions de base de données (SQLite, MySQL, MongoDB) <br />
         </p>
       </div>
+
+      <hr />
+      <competences class="d-none d-sm-block" />
+      <competencesResponsive class="d-sm-none" />
 
       <hr />
       <div class="text-center">
@@ -137,6 +137,12 @@ export default {
 <style scoped>
 #cv {
   padding: 2%;
+}
+
+hr {
+  border-top: solid 1px #000 !important;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .v-btn {
