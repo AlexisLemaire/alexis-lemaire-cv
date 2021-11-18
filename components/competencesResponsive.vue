@@ -23,6 +23,7 @@
       · HTML <br />
       · CSS <br />
       · Bootstrap <br />
+      · Responsive Design <br />
       · Librairies UI (Angular Materials, Vuetify..) <br />
       · Wordpress <br />
     </div>
