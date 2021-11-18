@@ -45,7 +45,7 @@
       <div class="text-center">
         <h5>Projets</h5>
         <div>
-          Ci-dessous, vous retrouverez la liste des projets que j'ai choisi de publier sur internet.
+          Ci-dessous, vous retrouverez la liste des projets que j'ai choisi de publier sur mon CV.
           <strong>Cliquez sur un projet pour voir le détail</strong>
         </div>
         <br />
