@@ -2,7 +2,7 @@
   <div>
     <div>
       <div><strong>Diplôme:</strong> Bac +2 Développeur Web</div>
-      <div><strong>Expérience:</strong> 6 mois</div>
+      <div><strong>Expérience:</strong> 7 mois</div>
       <div><strong>Recherche:</strong> CDD, CDI</div>
       <div><strong>Point fort:</strong> Organisateur, Autonome</div>
       <div><strong>Langues:</strong> Français, Anglais</div>

@@ -10,7 +10,7 @@
         · Typescript <br />
         · PHP <br />
         · SQL <br />
-        · Langages de configuration: JSON, YML<br />
+        · Config: JSON, YML<br />
       </div>
       <div>
         <h6>FRAMEWORKS / LIBRAIRIES</h6>
