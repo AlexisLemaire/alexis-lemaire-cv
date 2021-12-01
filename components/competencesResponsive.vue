@@ -10,26 +10,25 @@
         · Typescript <br />
         · PHP <br />
         · SQL <br />
-        · Langages de configuration: JSON, YML<br />
+        · Config: JSON, YML<br />
       </div>
       <div>
         <h6>FRAMEWORKS / LIBRAIRIES</h6>
-        · Frameworks JS Front-End (Vue.js, Angular) <br />
-        · Frameworks JS Back-End (Node.js, Express, Fastify, Nest.js) <br />
-        · Frameworks de Tests (Cypress, Jest, PHPUnit) <br />
-        · Framework PHP (Symfony 5) <br />
-        · Framework CSS (Bootstrap) <br />
-        · Librairies UI (Angular Materials, Vuetify..) <br />
-        · Librairies JS (Axios, JWT..) <br />
+        · JS-Front: Vue.js, Angular, JQuery, Axios <br />
+        · JS-Back: Node.js, Express, Fastify, Nest.js <br />
+        · PHP: Symfony 5 <br />
+        · CSS: Bootstrap, SASS, LESS <br />
+        · UI: Angular Materials, Vuetify <br />
+        · TEST: Cypress, Jest, PHPUnit <br />
       </div>
       <div>
         <h6>COMPETENCES GLOBALES</h6>
-        · API Rest <br />
-        · Base de données (MySQL, SQLite, MongoDB) <br />
-        · Outils d'intégration: Gitlab, Github<br />
-        · Méthodologies: AGILE SCRUM, MVC, TDD <br />
-        · Protocole HTTP (Postman) <br />
-        · Protocole AMQP (RabbitMQ, Débutant) <br />
+        · AGILE, SCRUM, MVC, TDD <br />
+        · REST API <br />
+        · Gitlab, Github<br />
+        · Databases: MySQL, SQLite, MongoDB <br />
+        · ORMs: Doctrine, Sequelize, Mongoose <br />
+        · Protocoles: HTTP, SMTP <br />
         · Responsive Design <br />
       </div>
     </div>

@@ -12,11 +12,21 @@
         <h5 class="text-center">Présentation</h5>
         <p>
           Bonjour, je suis un Développeur Web Junior en recherche d'expérience. Je suis intéressé par toutes les facettes du
-          développement web (Back, Front, Tests). Mon profil est celui d'un <strong>organisateur.</strong> Lorsque je développe sur
-          projets, j'aime que
-          <strong>la structure du projet et du code au sein de chaque fichier soit la plus claire et la plus légère possible</strong>,
-          afin que la maintenance ou l'amélioration des projets puisse se faire de façon simple. Enfin, je suis quelqu'un de motivé et
-          travailleur au quotidien, j'ai tendance à fournir beaucoup d'efforts afin de pouvoir répondre aux défis que je me propose.
+          développement web (Back, Front, Tests). Mon profil est celui d'un organisateur. Lorsque je développe sur projets, j'aime que
+          la structure du projet et du code au sein de chaque fichier soit la plus claire et la plus légère possible possible afin que
+          la maintenance ou l'amélioration des projets puisse se faire de façon simple.
+
+          <br /><br />
+
+          Humainement, je suis quelqu'un d'assez motivé au travail, je n'ai jamais déçu aucun employeur sur ma quantité de travail
+          fournie. Je pense que ma qualité principale est ma rapidité d'apprentissage. Cherchant à performer le plus possible dans le
+          domaine du développement web, je me sais capable (et mon expérience le prouve) d'apprendre très rapidement de nouvelles
+          technos ou de corriger mes points faibles sur celles que j'utilise déjà.
+
+          <br /><br />
+
+          Enfin, cherchant avant tout de l'expérience dans le domaine du dev web, je suis souple concernant mes attentes salariales et
+          professionnelles.
         </p>
       </div>
 
