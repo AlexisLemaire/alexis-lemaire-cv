@@ -1,7 +1,10 @@
 <template>
   <div class="d-flex justify-content-between p-3">
     <v-card id="cv" elevation="22">
-      <h2 class="text-center">ALEXIS LEMAIRE: DEV WEB FULLSTACK</h2>
+      <h2 class="text-center">
+        ALEXIS LEMAIRE <br />
+        DEVELOPPEUR WEB (PHP/JS) FULLSTACK
+      </h2>
       <p class="text-center text-secondary">https://alexis-lemaire-cv.herokuapp.com/</p>
 
       <entete class="d-none d-md-flex justify-content-around" />
@@ -34,16 +37,23 @@
       <div>
         <h5 class="text-center">Expériences</h5>
         <p>
-          <strong>Digital Expert : Septembre 2021 à Novembre 2021</strong> <br />
+          <strong>Digital Expert : Septembre 2021 - Novembre 2021</strong> <br />
           · Apprentissage des bonnes pratiques pour créer un projet web (structure, gestion des dépendances) <br />
-          · Mise en place des tests automatisés pour assurer la non-régression des projets lors des déploiements <br />
-          · Mise en place d'une API Rest avec le framework Node.js Fastify <br />
+          · Utilisation de la méthodologie AGILE SCRUM <br />
+          · Mise en place d'une API Rest avec Node.js <br />
           · Mise en place d'une interface web avec le framework Vue.js <br />
-          · Utilisation de la méthodologie SCRUM <br /><br />
-          <strong>Projets scolaires & personnels : Mai 2021 à Septembre 2021</strong> <br />
-          · Apprentissage des bases du développement javascript fullstack (architecture Node, architecture des frameworks frontend)<br />
-          · Apprentissage des bases du développement PHP Symfony <br />
-          · Mise en place de solutions de base de données (SQLite, MySQL, MongoDB) <br />
+          · Mise en place des tests automatisés pour assurer la non-régression des projets lors des déploiements <br />
+          · Intégration des tests dans une CI (Gitlab) <br /><br />
+
+          <strong>Projets scolaires & personnels : Mai 2021 - ... </strong> <br />
+          · Mise en place de bases de données (SQLite, MySQL, MongoDB) <br />
+          · Mise en place de gestions de comptes utilisateurs <br />
+          · Mise en place d'APIs Node.js (Express, Fastify) <br />
+          · Mise en place d'interfaces Front-End (Vue.js, Angular, Twig) <br />
+          · Création d'un site web via le framework Symfony 5 <br />
+          · Déploiement d'une API sur Github <br />
+          · Déploiement d'une application Vue / Angular / Symfony sur Github <br />
+          · Expositions d'applications sur Heroku via Github <br />
         </p>
       </div>
 

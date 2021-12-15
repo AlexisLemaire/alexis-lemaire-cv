@@ -10,24 +10,24 @@
         · Typescript <br />
         · PHP <br />
         · SQL <br />
-        · Config: JSON, YML<br />
+        · JSON, YML<br />
       </div>
       <div>
         <h6>FRAMEWORKS / LIBRAIRIES</h6>
-        · JS-Front: Vue.js, Angular, JQuery, Axios <br />
-        · JS-Back: Node.js, Express, Fastify, Nest.js <br />
-        · PHP: Symfony 5 <br />
-        · CSS: Bootstrap, SASS, LESS <br />
-        · UI: Angular Materials, Vuetify <br />
-        · TEST: Cypress, Jest, PHPUnit <br />
+        · JS-Front (Vue.js / Angular / JQuery) <br />
+        · JS-Back (Node.js / Express / Fastify) <br />
+        · PHP (Symfony 5 / peut apprendre CakePHP/Laravel) <br />
+        · CSS (Bootstrap / SASS / LESS) <br />
+        · UI (Angular Materials / Vuetify) <br />
+        · TEST (Cypress / Jest / PHPUnit) <br />
+        · ORMs (Doctrine / Sequelize / Mongoose) <br />
       </div>
       <div>
         <h6>COMPETENCES GLOBALES</h6>
         · AGILE, SCRUM, MVC, TDD <br />
         · REST API <br />
         · Gitlab, Github<br />
-        · Databases: MySQL, SQLite, MongoDB <br />
-        · ORMs: Doctrine, Sequelize, Mongoose <br />
+        · MySQL, SQLite, MongoDB <br />
         · Protocoles: HTTP, SMTP <br />
         · Responsive Design <br />
       </div>
